@@ -40,7 +40,7 @@ local config = {
   },
 
   download_binaries = true,
-  node_executable = "bun",
+  node_executable = "node",
   skip_node_check = false,
   cody_agent = vim.api.nvim_get_runtime_file("dist/cody-agent.js", false)[1],
 
