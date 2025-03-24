@@ -33,14 +33,14 @@
 ---@type sg.config
 local config = {
   enable_cody = true,
-  accept_tos = false,
+  accept_tos = true,
 
   chat = {
     default_model = nil,
   },
 
   download_binaries = true,
-  node_executable = "node",
+  node_executable = "bun",
   skip_node_check = false,
   cody_agent = vim.api.nvim_get_runtime_file("dist/cody-agent.js", false)[1],
 
